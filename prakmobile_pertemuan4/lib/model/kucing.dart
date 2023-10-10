@@ -7,7 +7,7 @@ class Kucing {
 }
 
 
-var dataKucing = [
+List<Kucing> dataKucing = [
   Kucing(nama: 'kucing satu', tanggal: '12-12-2020', gambar: 'images/kucing/kucing1.png'),
   Kucing(nama: 'kucing dua', tanggal: '12-12-2020', gambar: 'images/kucing/kucing2.png'),
   Kucing(nama: 'kucing tiga', tanggal: '12-12-2020', gambar: 'images/kucing/kucing3.png'),
