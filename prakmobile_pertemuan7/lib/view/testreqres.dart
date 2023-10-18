@@ -14,7 +14,6 @@ class _TestReqresPageState extends State<TestReqresPage> {
   bool isLoading = false;
   String id = '3';
 
-
   @override
   void initState() {
     super.initState();
@@ -36,16 +35,18 @@ class _TestReqresPageState extends State<TestReqresPage> {
               const Text('reqres test', style: TextStyle(color: Colors.black)),
         ),
         body: Center(
-          child: Column(
-            children: [
-              CircleAvatar(
-                  radius: 50,
-                  backgroundImage: NetworkImage(reqresuser!.data.avatar)),
-              Text(reqresuser!.data.firstName),
-              Text(reqresuser!.data.lastName),
-              Text(reqresuser!.data.email),             
-            ],
-          ),
+          child: isLoading
+              ? CircularProgressIndicator()
+              : Column(
+                  children: [
+                    CircleAvatar(
+                        radius: 50,
+                        backgroundImage: NetworkImage(reqresuser!.data.avatar)),
+                    Text(reqresuser!.data.firstName),
+                    Text(reqresuser!.data.lastName),
+                    Text(reqresuser!.data.email),
+                  ],
+                ),
         ));
   }
 }
