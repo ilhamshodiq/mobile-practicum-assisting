@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "453267379413",
+    "project_id": "nyoba-auth-buat-prakmobile",
+    "storage_bucket": "nyoba-auth-buat-prakmobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453267379413:android:33411f29bbbcea4dbc3e5c",
+        "android_client_info": {
+          "package_name": "com.example.nyobakauth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAmvN_jjHzj2hr-nMVUCdrbqpy2Z4SFC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453267379413:android:5c935e255c073ceabc3e5c",
+        "android_client_info": {
+          "package_name": "com.ilhamshodiq.nyobaauthbuatprakmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAmvN_jjHzj2hr-nMVUCdrbqpy2Z4SFC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
